@@ -37,9 +37,7 @@
 
 ## EXPLOIT
 
-- localhost
-
-- Collect instance metadata : EC2 ? Equivalent google ? 
+### Collect instance metadata 
 	
 #### AWS
 
