@@ -25,11 +25,11 @@
 	
 * Encoding
 	
-	. Hex : 127.0.0.1 translates to 0x7f.0x0.0x0.0x1
-	. Octal : 127.0.0.1 translates to 0177.0.0.01
-	. DWord : 127.0.0.1 translates to 2130706433
-	. URL Encoding : localhost translates to %6c%6f%63%61%6c%68%6f%73%74
-	. Mixed : 127.0.0.1 translates to 0177.0.0.0x1
+		. Hex : 127.0.0.1 translates to 0x7f.0x0.0x0.0x1
+		. Octal : 127.0.0.1 translates to 0177.0.0.01
+		. DWord : 127.0.0.1 translates to 2130706433
+		. URL Encoding : localhost translates to %6c%6f%63%61%6c%68%6f%73%74
+		. Mixed : 127.0.0.1 translates to 0177.0.0.0x1
 
 * Ip V6
 * DNS 
@@ -61,10 +61,10 @@
 	
 * internally : port scanning, other services on internal ip ? 
 
-	. Internal adress : https://en.wikipedia.org/wiki/Reserved_IP_addresses
-	. 127.0.0.0/8
-	. 192.168.0.0/16
-	. 10.0.0.0/8
+		. Internal adress : https://en.wikipedia.org/wiki/Reserved_IP_addresses
+		. 127.0.0.0/8
+		. 192.168.0.0/16
+		. 10.0.0.0/8
 
 * externally : user agent in dns/http request
 
