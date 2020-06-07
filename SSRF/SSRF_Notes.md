@@ -33,7 +33,7 @@
 
 * Ip V6
 * DNS 
-* Redirect ( <?php header(“location: http://127.0.0.1"); ?> ) / TinyUrl 
+* Redirect : <?php header(“location: http://127.0.0.1"); ?> / TinyUrl 
 
 ## EXPLOIT
 
@@ -81,4 +81,7 @@
 	- Internal adress : https://en.wikipedia.org/wiki/Reserved_IP_addresses
 
 	- Common ports : https://packetlife.net/media/library/23/common-ports.pdf
-
+	
+	- AWS EC2 Docs: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html (includes a comprehensive Instance Metadata Categories table)
+	
+	- Toutes les references possibles !!! : https://medium.com/@pravinponnusamy/ssrf-payloads-f09b2a86a8b4
