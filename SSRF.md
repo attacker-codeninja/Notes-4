@@ -25,11 +25,11 @@
 	
 * Encoding
 	
-	Hex : 127.0.0.1 translates to 0x7f.0x0.0x0.0x1
-	Octal : 127.0.0.1 translates to 0177.0.0.01
-	DWord : 127.0.0.1 translates to 2130706433
-	URL Encoding : localhost translates to %6c%6f%63%61%6c%68%6f%73%74
-	Mixed : 127.0.0.1 translates to 0177.0.0.0x1
+	. Hex : 127.0.0.1 translates to 0x7f.0x0.0x0.0x1
+	. Octal : 127.0.0.1 translates to 0177.0.0.01
+	. DWord : 127.0.0.1 translates to 2130706433
+	. URL Encoding : localhost translates to %6c%6f%63%61%6c%68%6f%73%74
+	. Mixed : 127.0.0.1 translates to 0177.0.0.0x1
 
 * Ip V6
 * DNS 
@@ -43,21 +43,21 @@
 	
 #### AWS
 
-* http://169.254.169.254/latest/meta-data/ returns the list of available metadata that you can query.
+	* http://169.254.169.254/latest/meta-data/ returns the list of available metadata that you can query.
 
-* http://169.254.169.254/latest/meta-data/local-hostname/ returns the internal hostname used by the host.
+	* http://169.254.169.254/latest/meta-data/local-hostname/ returns the internal hostname used by the host.
 
-* http://169.254.169.254/latest/meta-data/iam/security-credentials/ROLE_NAME returns the security credentials of that role.
+	* http://169.254.169.254/latest/meta-data/iam/security-credentials/ROLE_NAME returns the security credentials of that role.
 
-* http://169.254.169.254/latest/dynamic/instance-identity/document reveals the private IP address of the current instance.
+	* http://169.254.169.254/latest/dynamic/instance-identity/document reveals the private IP address of the current instance.
 
-* http://169.254.169.254/latest/user-data/ returns user data on the current instance. 
+	* http://169.254.169.254/latest/user-data/ returns user data on the current instance. 
 
 #### GOOGLE
 
-* http://metadata.google.internal/computeMetadata/v1beta1/instance/service-accounts/default/token returns the access token of the default account on the instance.
-		
-* http://metadata.google.internal/computeMetadata/v1beta1/project/attributes/ssh-key returns public SSH keys that can connect to other instances in this project.
+	* http://metadata.google.internal/computeMetadata/v1beta1/instance/service-accounts/default/token returns the access token of the default account on the instance.
+
+	* http://metadata.google.internal/computeMetadata/v1beta1/project/attributes/ssh-key returns public SSH keys that can connect to other instances in this project.
 
 ### fingerprinting : 
 	
@@ -76,11 +76,11 @@
 
 ## LINKS
 
-- SSRF Bible : https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit#heading=h.kwcnj7jh5zyy
+	- SSRF Bible : https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit#heading=h.kwcnj7jh5zyy
 
-- Vickie Li : https://medium.com/@vickieli/sitemap-xml-6ecc3b14b4f
+	- Vickie Li : https://medium.com/@vickieli/sitemap-xml-6ecc3b14b4f
 
-- Internal adress : https://en.wikipedia.org/wiki/Reserved_IP_addresses
+	- Internal adress : https://en.wikipedia.org/wiki/Reserved_IP_addresses
 
-- Common ports : https://packetlife.net/media/library/23/common-ports.pdf
+	- Common ports : https://packetlife.net/media/library/23/common-ports.pdf
 
