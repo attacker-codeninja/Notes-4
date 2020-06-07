@@ -1,5 +1,4 @@
 # SSRF
-=====
 
   ## WHERE
 
@@ -16,15 +15,16 @@
 
   ## BYPASS
 
-- Whitelist :
+		### Whitelist :
 	
 	* Open redirect
 	* @ , # , / , . 
 	* Encoding ?
 
-- Blacklist
+		### Blacklist
 	
 	* Encoding
+	
 		Hex : 127.0.0.1 translates to 0x7f.0x0.0x0.0x1
 		Octal : 127.0.0.1 translates to 0177.0.0.01
 		DWord : 127.0.0.1 translates to 2130706433
@@ -35,7 +35,7 @@
 	* DNS 
 	* Redirect ( <?php header(“location: http://127.0.0.1"); ?> ) / TinyUrl 
 
--------------% EXPLOIT $-------------
+	## EXPLOIT
 
 - localhost
 
