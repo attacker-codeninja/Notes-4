@@ -74,14 +74,14 @@
 
 ## LINKS
 
-	- SSRF Bible : https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit#heading=h.kwcnj7jh5zyy
+	- SSRF Bible : <https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit#heading=h.kwcnj7jh5zyy>
 
-	- Vickie Li : https://medium.com/@vickieli/sitemap-xml-6ecc3b14b4f
+	- Vickie Li : <https://medium.com/@vickieli/sitemap-xml-6ecc3b14b4f>
 
-	- Internal adress : https://en.wikipedia.org/wiki/Reserved_IP_addresses
+	- Internal adress : <https://en.wikipedia.org/wiki/Reserved_IP_addresses>
 
-	- Common ports : https://packetlife.net/media/library/23/common-ports.pdf
+	- Common ports : <https://packetlife.net/media/library/23/common-ports.pdf>
 	
-	- AWS EC2 Docs: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html (includes a comprehensive Instance Metadata Categories table)
+	- AWS EC2 Docs: <http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html> (includes a comprehensive Instance Metadata Categories table)
 	
-	- Toutes les references possibles !!! : https://medium.com/@pravinponnusamy/ssrf-payloads-f09b2a86a8b4
+	- Toutes les references possibles !!! : <https://medium.com/@pravinponnusamy/ssrf-payloads-f09b2a86a8b4>
