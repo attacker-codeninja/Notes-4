@@ -1,10 +1,11 @@
 # SSRF
 =====
--------------% WHERE %------------- 
 
-- File Upload	(SVGs, JPGs, XMLs and JSONs)
+  ## WHERE
+
+    ### File Upload	(SVGs, JPGs, XMLs and JSONs)
 	
-	* SVGs : 
+      #### SVGs : 
 
 - Proxies
 - Admin Configuration
@@ -13,7 +14,7 @@
 - Hidden API endpoints that accept URLs as input
 - HTML tag injections
 
--------------% BYPASS %-------------
+  ## BYPASS
 
 - Whitelist :
 	
