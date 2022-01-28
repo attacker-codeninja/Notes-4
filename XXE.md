@@ -4,6 +4,7 @@
 
 # Tools
   -content type converter in Burp : convert JSON to XML and opposite
+  -exif editor : to change exif data of images to include XML
   
 # How to test
   - Try to convert json data to xml and see if application still respond
@@ -24,3 +25,7 @@
   - You can also base64 encode the file 
   - You can put an XML in image Exif data 
   - Use External DTD to escalate XXE
+
+# Ressources 
+  - Payloadallthethings
+  - Hacktricks 
