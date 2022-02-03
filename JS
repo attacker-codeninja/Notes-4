@@ -1,0 +1,18 @@
+# Tools
+  - GetJS by 003random : https://github.com/003random/getJS
+  - GoLinkFinder by 0xsha : https://github.com/0xsha/GoLinkFinder
+  - de4js : https://lelinhtinh.github.io/de4js/
+  - Scripthunter by Robre : https://github.com/robre/scripthunter
+  - Hakrawler by Hakluke
+  - Trufflehog : https://github.com/trufflesecurity/truffleHog/
+  - JScanner
+  
+# What to look for
+  - New Url/Endpoints
+  - New parameter
+  - Useful info: in comments or on how the website function
+  - Leaked Secrets and Weak Encryption
+
+## Dangerous Function
+  - document.write(), document.writeln
+  - document.location.href()
