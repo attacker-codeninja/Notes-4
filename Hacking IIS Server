@@ -1,0 +1,7 @@
+# Content Discovery
+- IIS Shortname scanner - https://github.com/irsdl/IIS-ShortName-Scanner
+- Bruteforce from result
+- Extensions : asp, aspx, ashx, wsdl, wadl, asmx, xml, zip, txt
+
+
+sqlmap command : sqlmap.py -u "url" --dbms mssql --technique=BT --dbs
